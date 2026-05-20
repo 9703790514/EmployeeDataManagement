@@ -1,0 +1,17 @@
+# Database Configuration
+# Copy this file to 'database.properties' and update with your actual credentials
+# DO NOT commit the actual database.properties file to version control
+
+# Database Connection Settings
+db.url=jdbc:mysql://localhost:3306/employee_management
+db.username=root
+db.password=your_password_here
+
+# Connection Pool Settings (optional)
+db.maxConnections=10
+db.connectionTimeout=30000
+
+# Example for remote/cloud MySQL database:
+# db.url=jdbc:mysql://sql12.freesqldatabase.com:3306/sql12762324
+# db.username=sql12762324
+# db.password=your_password_here
